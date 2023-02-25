@@ -1,3 +1,5 @@
+# Tutorial simple calculater
+
 from tkinter import*
 
 root = Tk()
