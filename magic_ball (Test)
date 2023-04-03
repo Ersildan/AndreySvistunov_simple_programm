@@ -24,10 +24,14 @@ frame_top = Frame(window, bg='#ffb700', bd=5)
 frame_top.place(relx=0.15, rely=0.15, relwidth=0.7, relheight=0.25)
 frame_bottom = Frame(window, bg='#ffb700', bd=5)
 frame_bottom.place(relx=0.15, rely=0.55, relwidth=0.7, relheight=0.1)
+
 cityField = Entry(frame_top, bg='white', font=30)
 cityField.pack()
+
 btn = Button(frame_top, text='Узнать ответ', command=get_answer())
 btn.pack()
+
 info = Label(frame_bottom, text='Шар говорит:', bg='#ffb700', font=40)
 info.pack()
+
 window.mainloop()
