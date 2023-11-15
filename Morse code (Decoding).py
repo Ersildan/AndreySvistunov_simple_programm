@@ -7,6 +7,7 @@ d = {".-": "А", "-...": "Б", ".--": "В", "--.": "Г", "-..": "Д", ".": "Е",
      }
 
 print('ENG: Write the text in Morse code to decipher into Russian.')
+
 while True:
     try:
         for key in input().split():
