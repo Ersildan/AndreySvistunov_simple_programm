@@ -1,7 +1,6 @@
 import random
 import time
 
-
 def play_game():
     a = random.randrange(0, 101)
     print('Какое число я загадал?')
@@ -31,5 +30,6 @@ def play_game():
             print('Спасибо за игру, приходи ещё :)')
             time.sleep(2)
             exit()
+
 
 print(play_game())
