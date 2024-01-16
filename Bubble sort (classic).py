@@ -11,4 +11,4 @@ while True:
             print(stroka)
 
     except ValueError:
-        print('Используй только цифры / Use only numbers. (1234567890)')
+        print('Используй только цифры / Use only numbers. Ex (1234567890)')
