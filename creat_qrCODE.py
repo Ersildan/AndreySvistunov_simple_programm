@@ -8,3 +8,4 @@ img = qrcode.make(data)
 img.save("qrcode.png")
 
 print('Hello guys')
+print('nice program')
