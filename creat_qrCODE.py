@@ -6,5 +6,3 @@ img = qrcode.make(data)
 
 #save new png on your download
 img.save("qrcode.png")
-
-"Just do your Qrcode"
