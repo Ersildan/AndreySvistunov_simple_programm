@@ -4,8 +4,8 @@ while True:
     try:
         while True:
             stroka = list(map(int, input().split()))
-            for _ in range(len(stroka)-1):
-                for _ in range(len(stroka)-1):
+            for _ in range(len(stroka) - 1):
+                for _ in range(len(stroka) - 1):
                     if stroka[_] > stroka[_ + 1]:
                         stroka[_], stroka[_ + 1] = stroka[_ + 1], stroka[_]
             print(stroka)
